@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("Fete-des-meres.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav {
+  display: flex;
+  padding: 1% 2%;
+}
+nav img {
+  width: 170px;
+  border-radius: 10px;
+}
+div.nav-links {
+  flex: 1;
+  text-align: right;
+}
+div.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 4px 12px;
+  position: relative;
+}
+div.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+
+
+
+div.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: fuchsia;
+  display: block;
+  transition: 0.5s;
+}
+
+div.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+div.titre {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.titre h1 {
+  font-size: 62px;
+}
+
+.titre p {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: fuchsia;
+}
+
+.backgroundcolor {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+section.presentation {
+  text-align: center;
+  padding: 50px 20px 30px;
+}
+
+section.presentation a {
+  text-decoration: none;
+  color: rgb(248, 0, 50);
+}
+
+section.presentation a:hover {
+  text-decoration-line: underline;
+}
+
+p.amamere {
+  font-style: normal;
+  width: 70%;
+  margin-left: 80px;
+  font-weight: 550;
+}
+
+li.amaman {
+  font-size: small;
+  margin-left: 115px;
+  width: 50%;
+}
+
+
+
+
+
+
+ 
